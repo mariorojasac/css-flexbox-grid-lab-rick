@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#D4D952, #32A639);
+  /* display:  grid makes bottom fat on some screens ; */
+  /* display: grid; */
+  min-height: 100vh;
+  margin: 0;
+}
+
+#image {
+  background-color: black;
+
+}
+
+img {
+  margin: 25px;
+  border-radius: 50%;
+  border: 5px solid #04C4D9;
+}
+
+.card {
+  display: grid;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 300px;
+  box-shadow: 0 10px 30px 15px green;
+  /* padding: 0%; */
+}
+
+
+.title {
+  color: white;
+  font-size: 16px;
+  text-shadow: 2px 1px #32A639;
+}
+
+#followBtn {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+#top {
+  padding-top: 12px;
+}
+
+#top,
+#followBtn {
+  background-color: black;
+  color: #32A639;
+}
+
+h1 {
+  text-align: justify;
+}
+
+h1,
+p {
+  margin: auto;
+  font-family: 'Architects Daughter', cursive;
+}
+
+p {
+  padding: 12px;
+}
+
+#catchphrase {
+  color: white;
+}
+
+#btn {
+  background-color: black;
+}
+
+button {
+
+  width: 60%;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
